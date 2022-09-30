@@ -9,8 +9,8 @@ body {
 }
 .wrapper {
     border: 3px solid #010124;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,4 +30,35 @@ body {
     width: 200px;
     height: 100px;
     text-align: center;
+}
+
+.countdown {
+    position: absolute;
+    top: 490px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #010124;
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #010124 ;
+    color: white; 
+    padding: 20px 50px;
+    border-radius: 5px;
+    z-index: 200;
+    cursor: pointer;
+    /* border: none;
+    outline: none; */
+}
+
+.game {
+    border: 2px solid black;
+    width: 600px;
+    height: 400px;
+    margin: 70px auto;
+    z-index: 200;
 }
