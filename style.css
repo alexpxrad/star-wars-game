@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+}
+.wrapper {
+    border: 3px solid #010124;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('background.png');
+    overflow: hidden;
+}
+
+.score {
+    font-size: 150px;
+    color: #010124;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
